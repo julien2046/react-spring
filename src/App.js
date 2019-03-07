@@ -8,10 +8,9 @@ import { useSpring, animated } from 'react-spring'
 
 function App() {
 
-
   const props = useSpring({
-    from: { opacity:0, marginTop: -1000 },
-    to: { opacity:1, marginTop: 0 }
+    from: { opacity: 0, marginTop: -1000 },
+    to: { opacity: 1, marginTop: 0 }
   })
 
   return (
